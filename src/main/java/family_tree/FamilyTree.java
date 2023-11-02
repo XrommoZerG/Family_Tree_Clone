@@ -1,12 +1,14 @@
 package family_tree;
 
 import human.Human;
+import human.comparators.HumanComparatorById;
+import human.comparators.HumanComparatorByName;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
-public class FamilyTree implements Serializable {
+public class FamilyTree<E extends ItemTree> implements Serializable {
     public long idhuman;
     private List<Human> humans;
 
@@ -52,5 +54,13 @@ public class FamilyTree implements Serializable {
     @Override
     public String toString(){
         return getInfo();
+    }
+
+    public void sortByName(){
+        humans.sort(new HumanComparatorByName<>());
+    }
+
+    public void sorrtById(){
+        humans.sort(new HumanComparatorById<>());
     }
 }

@@ -7,10 +7,19 @@ import java.time.LocalDate;
 
 public class main {
     public static void main(String[] args) {
-        //FamilyTree tree = creatTree();
-        FamilyTree tree = load();
+        FamilyTree tree = creatTree();
+        //FamilyTree tree = load();
 
         System.out.println(tree);
+
+        tree.sortByName();
+
+        System.out.println(tree);
+
+        tree.sorrtById();
+        System.out.println(tree);
+
+
 
         //save(tree);
 

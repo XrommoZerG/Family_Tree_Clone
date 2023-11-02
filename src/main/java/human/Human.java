@@ -1,5 +1,7 @@
 package human;
 
+import family_tree.ItemTree;
+
 import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.Period;
@@ -7,7 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
-public class Human implements Serializable {
+public class Human implements Serializable, ItemTree {
     private long id;
     private String name;
     private LocalDate birthDate;
@@ -60,6 +62,11 @@ public class Human implements Serializable {
         return id;
     }
 
+    @Override
+    public String getLastName() {
+        return null;
+    }
+
     public void setId(long id) {
         this.id = id;
     }
@@ -90,6 +97,21 @@ public class Human implements Serializable {
 
     public Gender getGender() {
         return gender;
+    }
+
+    @Override
+    public LocalDate getBirthday() {
+        return null;
+    }
+
+    @Override
+    public String getChildren() {
+        return null;
+    }
+
+    @Override
+    public int age() {
+        return 0;
     }
 
     public void setGender(Gender gender) {
