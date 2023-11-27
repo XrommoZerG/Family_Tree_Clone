@@ -1,4 +1,4 @@
-package write;
+package model.write;
 
 import java.io.Serializable;
 

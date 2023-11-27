@@ -1,4 +1,4 @@
-package human;
+package model.human;
 
 import family_tree.ItemTree;
 
@@ -7,11 +7,12 @@ import java.time.LocalDate;
 import java.time.Period;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class Human implements Serializable, ItemTree {
     private long id;
     private String name;
+
+    private String lastname;
     private LocalDate birthDate;
     private LocalDate deathDate;
     private Gender gender;
@@ -19,9 +20,10 @@ public class Human implements Serializable, ItemTree {
     private Human mother;
     private List<Human> children;
 
-    public Human(String name, LocalDate birthDate, LocalDate deathDate, Gender gender, Human father, Human mother) {
+    public Human(String name,String lastname, LocalDate birthDate, LocalDate deathDate, Gender gender, Human father, Human mother) {
         id = 0;
         this.name = name;
+        this.lastname = lastname;
         this.birthDate = birthDate;
         this.deathDate = deathDate;
         this.gender = gender;
@@ -30,12 +32,14 @@ public class Human implements Serializable, ItemTree {
         children = new ArrayList<>();
     }
 
-    public Human(String name, LocalDate birthDate, Gender gender) {
-        this(name, birthDate, null, gender, null, null);
+    public Human(String name,String lastname, Gender gender) {
+        this(name,lastname, null, null, gender, null, null);
     }
 
-    public Human(String name, LocalDate birthDate, Gender gender, Human father, Human mother) {
-        this(name, birthDate, null, gender, father, mother);
+
+
+    public Human(String name,String lastname, LocalDate birthDate, Gender gender, Human father, Human mother) {
+        this(name,lastname, birthDate, null, gender, father, mother);
     }
 
     public boolean addChildren(Human child) {
@@ -47,7 +51,8 @@ public class Human implements Serializable, ItemTree {
     }
 
     public int getAge() {
-        if (deathDate == null) {
+        if (this.birthDate == null) return 0;
+        if (this.deathDate == null){
             return getPeriod(birthDate, LocalDate.now());
         }
         return getPeriod(birthDate, deathDate);
@@ -132,6 +137,11 @@ public class Human implements Serializable, ItemTree {
 
     public void setMother(Human mother) {
         this.mother = mother;
+    }
+    public void setChild(Human human) {
+        if(!children.contains(human)) {
+            this.children.add(human);
+        }
     }
 
     @Override

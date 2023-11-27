@@ -4,14 +4,36 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="bb039f4a-cd7e-4ca4-a161-e81adbe2379c" name="Changes" comment="Start">
-      <change afterPath="$PROJECT_DIR$/src/main/java/family_tree/ItemTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/human/comparators/HumanComparatorById.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/human/comparators/HumanComparatorByName.java" afterDir="false" />
+    <list default="true" id="bb039f4a-cd7e-4ca4-a161-e81adbe2379c" name="Changes" comment="Sort">
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddBirthDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddChild.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddDeathDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/AddHuman.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/Command.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/Finish.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetDetailInfo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/GetTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/Load.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/Save.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/command/SortById.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/family_tree/HumanIterator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/HumanExcistsEception/HumanExcistsException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/builder/HumanBuilder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/service/Service.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/present/Presenter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/ConsoleUI.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/MainMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/view/View.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/family_tree/FamilyTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/family_tree/FamilyTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/human/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/human/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/family_tree/ItemTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/family_tree/ItemTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/human/Gender.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/human/Gender.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/human/Human.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/human/Human.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/human/comparators/HumanComparatorById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/human/comparators/HumanComparatorById.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/human/comparators/HumanComparatorByName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/human/comparators/HumanComparatorByName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/write/FileHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/write/FileHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/write/Writable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/model/write/Writable.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,11 +99,19 @@
       <option name="project" value="LOCAL" />
       <updated>1698682167324</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Sort">
+      <created>1698937403693</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1698937403693</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Start" />
-    <option name="LAST_COMMIT_MESSAGE" value="Start" />
+    <MESSAGE value="Sort" />
+    <option name="LAST_COMMIT_MESSAGE" value="Sort" />
   </component>
 </project>
