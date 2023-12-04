@@ -5,19 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bb039f4a-cd7e-4ca4-a161-e81adbe2379c" name="Changes" comment="MVP">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/AddBirthDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/command/AddBirthDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/AddChild.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/command/AddChild.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/AddDeathDate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/command/AddDeathDate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/AddHuman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/command/AddHuman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/command/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/Finish.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/command/Finish.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/GetDetailInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/command/GetDetailInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/GetTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/command/GetTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/Load.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/command/Load.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/Save.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/command/Save.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/command/SortById.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/command/SortById.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/view/MainMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/view/MainMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,6 +49,19 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
