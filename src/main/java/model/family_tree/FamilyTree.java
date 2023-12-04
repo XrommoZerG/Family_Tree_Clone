@@ -1,4 +1,4 @@
-package family_tree;
+package model.family_tree;
 
 import model.HumanExcistsEception.HumanExcistsException;
 import model.human.comparators.HumanComparatorById;

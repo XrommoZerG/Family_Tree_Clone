@@ -1,10 +1,4 @@
-import family_tree.FamilyTree;
-import model.human.Gender;
-import model.human.Human;
-import model.write.FileHandler;
 import view.ConsoleUI;
-
-import java.time.LocalDate;
 
 public class main {
     public static void main(String[] args) {

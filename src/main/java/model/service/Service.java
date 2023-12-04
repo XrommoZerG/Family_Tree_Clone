@@ -1,6 +1,6 @@
 package model.service;
 
-import family_tree.FamilyTree;
+import model.family_tree.FamilyTree;
 import model.HumanExcistsEception.HumanExcistsException;
 import model.builder.HumanBuilder;
 import model.human.Gender;

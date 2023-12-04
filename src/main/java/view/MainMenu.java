@@ -1,6 +1,6 @@
 package view;
 
-import command.*;
+import view.command.*;
 
 import java.util.ArrayList;
 import java.util.List;
